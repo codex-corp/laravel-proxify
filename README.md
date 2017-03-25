@@ -2,8 +2,7 @@ Laravel 5.3 and 5.4 Proxy for OAuth
 ================
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://travis-ci.org/Cellcote/laravel-proxify.svg?branch=master)](https://travis-ci.org/Cellcote/laravel-proxify)
-[![Code Quality](https://scrutinizer-ci.com/g/Cellcote/laravel-proxify/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Cellcote/laravel-proxify/?branch=master)
+[![Build Status](https://travis-ci.org/siddhantfriends/laravel-proxify.svg?branch=master)](https://travis-ci.org/siddhantfriends/laravel-proxify)
 [![Total Downloads](https://img.shields.io/packagist/dt/cellcote/laravel-proxify.svg?style=flat-square)](https://packagist.org/packages/siddhantfriends/laravel-proxify)
 
 ## Summary
