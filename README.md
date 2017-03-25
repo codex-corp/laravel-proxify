@@ -16,7 +16,7 @@ Laravel 5.3 and 5.4 Proxy for OAuth
 - [License](#license)
 
 ## Introduction
-The package forked from [Cellcote/laravel-proxify](https://github.com/Cellcote/laravel-proxify) credits to [Rik Schreurs](https://github.com/Cellcote)originally created by [Michele Andreoli](https://github.com/thinkingmik), but the package was outdated and did not work for Laravel version 5. I have adapted it to work with Laravel 5.
+The package forked from [Cellcote/laravel-proxify](https://github.com/Cellcote/laravel-proxify) credits to [Rik Schreurs](https://github.com/Cellcote), originally created by [Michele Andreoli](https://github.com/thinkingmik), but the package was outdated and did not work for Laravel version 5. I have adapted it to work with Laravel 5.
 
 This package would be a solution about the issue opened by [Alex Bilbie](http://alexbilbie.com/2014/11/oauth-and-javascript).
 He says:
