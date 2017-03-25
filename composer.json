@@ -1,5 +1,5 @@
 {
-	"name": "cellcote/laravel-proxify",
+	"name": "siddhantfriends/laravel-proxify",
 	"description": "A Laravel proxy package for SPA javascript API calls",
 	"keywords": [
 	"laravel",
@@ -7,7 +7,10 @@
 	"ajax",
 	"proxy",
 	"javascript",
-	"oauth"
+	"oauth",
+    "proxify",
+    "client_secret",
+    "oauth2"
 	],
 	"authors": [
 		{
@@ -17,7 +20,12 @@
 		{
 			"name": "Rik Schreurs",
 			"email": "Rik.schreurs@mail.com"
-		}
+		},
+        {
+            "name": "Siddhant Baviskar",
+            "email": "siddhantfriends@yahoo.co.in",
+            "role": "Developer, Forensic Investigator"
+        }
 	],
 	"require": {
 		"php": ">=5.5.0",
@@ -26,7 +34,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Cellcote\\LaravelProxify\\":"src"
+			"Siddhantfriends\\LaravelProxify\\":"src"
 		}
 	},
 	"license": "MIT"

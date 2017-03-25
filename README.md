@@ -1,10 +1,10 @@
-Laravel 5 Proxy for OAuth
+Laravel 5.3 and 5.4 Proxy for OAuth
 ================
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://travis-ci.org/Cellcote/laravel-proxify.svg?branch=master)](https://travis-ci.org/Cellcote/laravel-proxify)
 [![Code Quality](https://scrutinizer-ci.com/g/Cellcote/laravel-proxify/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Cellcote/laravel-proxify/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/cellcote/laravel-proxify.svg?style=flat-square)](https://packagist.org/packages/cellcote/laravel-proxify)
+[![Total Downloads](https://img.shields.io/packagist/dt/cellcote/laravel-proxify.svg?style=flat-square)](https://packagist.org/packages/siddhantfriends/laravel-proxify)
 
 ## Summary
  
@@ -17,7 +17,7 @@ Laravel 5 Proxy for OAuth
 - [License](#license)
 
 ## Introduction
-This package was originally created by [Michele Andreoli](https://github.com/thinkingmik), but the package was outdated and did not work for Laravel version 5. I have adapted it to work with Laravel 5.
+The package forked from [Cellcote/laravel-proxify](https://github.com/Cellcote/laravel-proxify) credits to [Rik Schreurs](https://github.com/Cellcote)originally created by [Michele Andreoli](https://github.com/thinkingmik), but the package was outdated and did not work for Laravel version 5. I have adapted it to work with Laravel 5.
 
 This package would be a solution about the issue opened by [Alex Bilbie](http://alexbilbie.com/2014/11/oauth-and-javascript).
 He says:
@@ -174,13 +174,13 @@ http://alexbilbie.com/2014/11/oauth-and-javascript
 Run the following `composer` command:
 
 ```
-composer require cellcote/laravel-proxify
+composer require siddhantfriends/laravel-proxify
 ```
 
 ## Setup
 
-1. Add `Cellcote\LaravelProxify\ApiProxyServiceProvider::class,` to the service provider list in `app/config/app.php`.
-2. Add `Proxify' => Cellcote\LaravelProxify\Facades\ApiProxyFacade',` to the list of aliases in `app/config/app.php`.
+1. Add `Siddhantfriends\LaravelProxify\ApiProxyServiceProvider::class,` to the service provider list in `app/config/app.php`.
+2. Add `Proxify' => Siddhantfriends\LaravelProxify\Facades\ApiProxyFacade',` to the list of aliases in `app/config/app.php`.
 
 ## Configuration
 

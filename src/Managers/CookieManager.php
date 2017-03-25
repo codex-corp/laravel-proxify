@@ -1,21 +1,23 @@
 <?php
 
 /**
- * @package   cellcote/laravel-proxify
+ * @package   siddhantfriends/laravel-proxify
  * @author    Michele Andreoli <michi.andreoli[at]gmail.com>
  * @copyright Copyright (c) Michele Andreoli
  * @author    Rik Schreurs <rik.schreurs[at]mail.com>
  * @copyright Copyright (c) Rik Schreurs
+ * @author    Siddhant Baviskar <siddhantfriends[at]yahoo.co.in>
+ * @copyright Copyright (c) Siddhant Baviskar
  * @license   http://mit-license.org/
- * @link      https://github.com/cellcote/laravel-proxify
+ * @link      https://github.com/siddhantfriends/laravel-proxify
  */
 
-namespace Cellcote\LaravelProxify\Managers;
+namespace Siddhantfriends\LaravelProxify\Managers;
 
-use Cellcote\LaravelProxify\Exceptions\CookieExpiredException;
-use Cellcote\LaravelProxify\Exceptions\CookieInvalidException;
+use Siddhantfriends\LaravelProxify\Exceptions\CookieExpiredException;
+use Siddhantfriends\LaravelProxify\Exceptions\CookieInvalidException;
 use Illuminate\Support\Facades\Cookie;
-use Cellcote\LaravelProxify\ProxyAux;
+use Siddhantfriends\LaravelProxify\ProxyAux;
 
 class CookieManager {
 

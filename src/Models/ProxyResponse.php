@@ -1,16 +1,18 @@
 <?php
 
 /**
- * @package   cellcote/laravel-proxify
+ * @package   siddhantfriends/laravel-proxify
  * @author    Michele Andreoli <michi.andreoli[at]gmail.com>
  * @copyright Copyright (c) Michele Andreoli
  * @author    Rik Schreurs <rik.schreurs[at]mail.com>
  * @copyright Copyright (c) Rik Schreurs
+ * @author    Siddhant Baviskar <siddhantfriends[at]yahoo.co.in>
+ * @copyright Copyright (c) Siddhant Baviskar
  * @license   http://mit-license.org/
- * @link      https://github.com/cellcote/laravel-proxify
+ * @link      https://github.com/siddhantfriends/laravel-proxify
  */
 
-namespace Cellcote\LaravelProxify\Models;
+namespace Siddhantfriends\LaravelProxify\Models;
 
 class ProxyResponse {
 

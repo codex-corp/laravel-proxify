@@ -1,20 +1,22 @@
 <?php
 
 /**
- * @package   cellcote/laravel-proxify
+ * @package   siddhantfriends/laravel-proxify
  * @author    Michele Andreoli <michi.andreoli[at]gmail.com>
  * @copyright Copyright (c) Michele Andreoli
  * @author    Rik Schreurs <rik.schreurs[at]mail.com>
  * @copyright Copyright (c) Rik Schreurs
+ * @author    Siddhant Baviskar <siddhantfriends[at]yahoo.co.in>
+ * @copyright Copyright (c) Siddhant Baviskar
  * @license   http://mit-license.org/
- * @link      https://github.com/cellcote/laravel-proxify
+ * @link      https://github.com/siddhantfriends/laravel-proxify
  */
 
-namespace Cellcote\LaravelProxify;
+namespace Siddhantfriends\LaravelProxify;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Http\JsonResponse;
-use Cellcote\LaravelProxify\Exceptions\ProxyException;
+use Siddhantfriends\LaravelProxify\Exceptions\ProxyException;
 
 class ApiProxyServiceProvider extends ServiceProvider {
 
@@ -58,7 +60,7 @@ class ApiProxyServiceProvider extends ServiceProvider {
             return $proxy;
         });
 
-        $this->app->bind('Cellcote\LaravelProxify\Proxy', function($app) {
+        $this->app->bind('Siddhantfriends\LaravelProxify\Proxy', function($app) {
             return $app['api-proxy.proxy'];
         });
     }
