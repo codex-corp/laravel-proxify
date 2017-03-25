@@ -178,8 +178,8 @@ composer require siddhantfriends/laravel-proxify
 
 ## Setup
 
-1. Add `Siddhantfriends\LaravelProxify\ApiProxyServiceProvider::class,` to the service provider list in `app/config/app.php`.
-2. Add `Proxify' => Siddhantfriends\LaravelProxify\Facades\ApiProxyFacade',` to the list of aliases in `app/config/app.php`.
+1. Add `Siddhantfriends\LaravelProxify\ApiProxyServiceProvider::class,` to the service provider list in `config/app.php`.
+2. Add `'Proxify' => Siddhantfriends\LaravelProxify\Facades\ApiProxyFacade::class,` to the list of aliases in `config/app.php`.
 
 ## Configuration
 
