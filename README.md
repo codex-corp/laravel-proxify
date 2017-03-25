@@ -193,7 +193,7 @@ Afterwards edit the file ```app/config/proxy.php``` to suit your needs.
 
 ## Usage
 
-In the `app/config/routes.php` add a new endpoint like:
+In the `routes/web.php` add a new endpoint like:
 
 ```php
 Route::any('proxify/{url?}', function($url) {
