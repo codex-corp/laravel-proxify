@@ -186,7 +186,7 @@ composer require siddhantfriends/laravel-proxify
 In order to use the Api Proxy publish its configuration first
 
 ```
-php artisan vendor:publish
+php artisan vendor:publish --provider="Siddhantfriends\LaravelProxify\ApiProxyServiceProvider"
 ```
 
 Afterwards edit the file ```app/config/proxy.php``` to suit your needs.
