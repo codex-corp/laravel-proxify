@@ -1,5 +1,5 @@
 {
-	"name": "siddhantfriends/laravel-proxify",
+	"name": "shokmaster/laravel-proxify",
 	"description": "A Laravel proxy package for SPA javascript API calls",
 	"keywords": [
 	"laravel",
@@ -25,6 +25,10 @@
             "name": "Siddhant Baviskar",
             "email": "siddhantfriends@yahoo.co.in",
             "role": "Developer, Forensic Investigator"
+        },
+        {
+            "name": "Juan Antonio Gómez Benito",
+            "email": "shokmaster@gmail.com",
         }
 	],
 	"require": {
@@ -34,7 +38,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Siddhantfriends\\LaravelProxify\\":"src"
+			"Shokmaster\\LaravelProxify\\":"src"
 		}
 	},
 	"license": "MIT"
